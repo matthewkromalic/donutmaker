@@ -1,0 +1,155 @@
+#donut{
+    width: 400px;
+    display: grid;
+    margin: auto;
+    margin-top: 1%;
+    height: auto;
+}
+#counter{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 400%;
+}
+body { 
+    /* took from stack overflow */
+    background: url("./upside.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#redo{
+    width: 100px;
+    height: 100px;
+    margin-top: -20%;
+}
+
+#wood{
+    width: 250px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: .3fr 4.7fr 1fr;
+}
+.woodContainer{
+    display:flex;
+}
+#counter{
+    grid-column-start: 4;
+}
+#donut{
+    grid-column-start: 4;
+}
+#redo{
+    grid-column-start: 1;
+}
+#wood{
+    width: 200px;
+    grid-column-start: 6;
+    grid-row-start: 2;
+}
+#clicker{
+    width: 50px;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 77%;
+    margin-left: 30%;
+}
+#clickerText{
+    font-size: 150%;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 106%;
+    margin-left: 10%;
+    color: black;
+}
+#price{
+    font-size: 140%;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 65%;
+    margin-left: -5%;
+}
+#fail{
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 120%;
+}
+#multi{
+    width: 80px;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 160%;
+    margin-left: 25%;
+}
+#multiPrice{
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 147%;
+    font-size: 130%;
+    margin-left: -4%;
+}
+#multiCount{
+    font-size: 140%;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 195%;
+    margin-left: 15%;
+}
+#multiFail{
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 210%;
+    margin-left: 7%;
+}
+#greymouse{
+    width: 50px;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 78%;
+    margin-left: 30%;
+}
+#greyx{
+    width: 80px;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    margin-top: 160%;
+    margin-left: 25%;
+}
+#dpc{
+    margin-top: -10%;
+    display: flex;
+    justify-content: center;
+}
+#div{
+    grid-row-start: 1;
+    grid-column-start: 4;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+}
+#linkClicks{
+    display: flex;
+    margin-left: 79%;
+    margin-top: -2.5%;
+    visibility: hidden;
+}
+#fred{
+    margin-left: 5%;
+    visibility: hidden;
+}
+#menu{
+    width: 100px;
+}
+#fredLink{
+    visibility: hidden;
+}
+#cookie{
+    visibility: hidden;
+}
+#aboutMe{
+    visibility: hidden;
+}
